@@ -6,7 +6,7 @@ Writes a single original one-line joke about cats to /output/entry.txt
 
 import os
 
-JOKE = "My cat knocked my glass off the table, watched it shatter, then looked at me like I was the clumsy one."
+JOKE = "My cat knocked my glass off the table, watched it shatter, then glared at me like I'd done it."
 
 OUTPUT_PATH = os.environ.get("OUTPUT_PATH", "/output/entry.txt")
 
